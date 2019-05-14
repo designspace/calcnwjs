@@ -1,0 +1,21 @@
+.content {
+	background: grey;
+	padding-right: 35px;
+	padding-bottom: 10px;
+	width: 215px;
+}
+
+#result {
+	font-size: 30px;
+	text-align: right;
+}
+
+button {
+	display: block;
+	margin: 5px 0;
+	width: 40px;
+}
+
+*:focus {
+	outline: none !important;
+}

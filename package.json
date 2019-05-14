@@ -1,0 +1,13 @@
+{
+	"name" : "calculator",
+	"version" : "1.0.0",
+	"main" : "index.html",
+	"author" : "kc",
+	"window" : {
+		"toolbar" : true,
+		"width" : 215,
+		"height" : 295,
+		"resizable": false
+	},
+	"license" : "ISC"
+}

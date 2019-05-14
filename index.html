@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Калькулятор</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<div class="container content">
+			<div class="row">
+				<div class="col-12" id="result">0</div>
+			</div>
+			<div class="row">
+				<div class="col-3"><button class="btn btn-danger" data-action="C">C</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="--">±</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="%">%</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="/">/</button></div>
+			</div>
+			<div class="row">
+				<div class="col-3"><button class="btn btn-success" data-value="7">7</button></div>
+				<div class="col-3"><button class="btn btn-success" data-value="8">8</button></div>
+				<div class="col-3"><button class="btn btn-success" data-value="9">9</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="*">x</button></div>
+			</div>
+			<div class="row">
+				<div class="col-3"><button class="btn btn-success" data-value="4">4</button></div>
+				<div class="col-3"><button class="btn btn-success" data-value="5">5</button></div>
+				<div class="col-3"><button class="btn btn-success" data-value="6">6</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="-">-</button></div>
+			</div>
+			<div class="row">
+				<div class="col-3"><button class="btn btn-success" data-value="1">1</button></div>
+				<div class="col-3"><button class="btn btn-success" data-value="2">2</button></div>
+				<div class="col-3"><button class="btn btn-success" data-value="3">3</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="+">+</button></div>
+			</div>
+			<div class="row">
+				<div class="col-6"><button class="btn btn-success" data-value="0">0</button></div>
+				<div class="col-3"><button class="btn btn-success" data-action=".">&nbsp;.&nbsp;</button></div>
+				<div class="col-3"><button class="btn btn-warning" data-action="=">=</button></div>
+			</div>
+		</div>
+		<script src="./js/jquery.min.js"></script>
+		<script src="./js/script.js"></script>
+	</body>
+</html>
